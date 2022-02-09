@@ -25,7 +25,7 @@ body a{
 /* main */
 main{
     background: #fff;
-    height: 85%;
+    height: 100%;
     display: flex;
 }
 #reg-main{
@@ -115,13 +115,6 @@ main{
 /* main */
 
 
-/* footer */
-footer{
-    text-align: center;
-    height: 70px;
-    line-height: 70px;
-}
-
 
 /* 作成ページ */
 .create_container{
@@ -133,7 +126,6 @@ footer{
     width: 50%;
     margin: 20px auto;
     font-size: 1.2rem;
-    border: 3px solid #ccc;
     background: #fff;
 }
 .create_header{
