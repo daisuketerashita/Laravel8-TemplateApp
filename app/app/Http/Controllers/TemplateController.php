@@ -18,4 +18,10 @@ class TemplateController extends Controller
             'templates' => $templates, 
         ]);
     }
+
+    //定型文制作ページ表示
+    public function create()
+    {
+        return view('create');
+    }
 }
