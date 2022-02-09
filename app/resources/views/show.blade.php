@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="main_container">
     <div class="main_left">
         <div class="main_left_container">
             <div class="create_area">
@@ -26,6 +25,4 @@
             <textarea>{{ $template_id->content }}</textarea>
         </div><!-- /.template_area -->
     </div><!-- /.main_right -->
-</div><!-- /.main_container -->
-
 @endsection 

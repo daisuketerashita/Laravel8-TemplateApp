@@ -77,9 +77,9 @@
             @yield('content')
         </main><!-- /.main -->
 
-        <footer class='footer p20'>
+        <footer class='footer'>
           <small class='copyright'>Laravel TemplateApp 2022 copyright</small>
-        </footer><!-- /.footer -->
+        </footer>
     </div><!-- /#app -->
 </body>
 </html>
