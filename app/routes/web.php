@@ -20,4 +20,5 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/',[TemplateController::class,'index'])->name('index');
     //定型文制作ページ
     Route::get('/template/create/', [TemplateController::class,'create'])->name('create');
+    Route::post('/template/create/', [TemplateController::class,'store'])->name('store');
 });
