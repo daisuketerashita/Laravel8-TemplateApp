@@ -110,9 +110,11 @@ main{
     border: 1 solid #000;
 }
 .btn-edit{
+    color: #222;
     margin-left: 30px;    
 }
 .btn-delete{
+    color: #222;
     margin-left: 20px;
 }
 /* main */
