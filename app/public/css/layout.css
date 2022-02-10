@@ -25,14 +25,17 @@ body a{
 /* main */
 main{
     background: #fff;
-    height: 100%;
-    display: flex;
 }
 #reg-main{
     padding: 5% 0% 15% 0%;
 }
 #log-main{
     padding: 5% 0% 18% 0%;
+}
+
+.main_container{
+    display: flex;
+    width: 100%;
 }
 .list-group a{
     color: #333;
@@ -76,14 +79,14 @@ main{
 
 /* main_right */
 .main_right{
-    background: skyblue;
+    background: #77B698;
     padding: 1.7rem 10%;
     width: 70%;
 }
 .template_area textarea{
     resize: none;
     width: 100%;
-    height: 580px;
+    height: 500px;
 }
 .active_id{
     background: #77B698;
@@ -115,6 +118,14 @@ main{
 /* main */
 
 
+/* footer */
+footer{
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    /* padding-top: 2px; */
+}
+
 
 /* 作成ページ */
 .create_container{
@@ -126,6 +137,7 @@ main{
     width: 50%;
     margin: 20px auto;
     font-size: 1.2rem;
+    border: 3px solid #ccc;
     background: #fff;
 }
 .create_header{
@@ -153,7 +165,6 @@ main{
 }
 .create_submit{
     display: flex;
-    padding-top: 10px;
 }
 .btn_back{
     margin-top: 2%; 
