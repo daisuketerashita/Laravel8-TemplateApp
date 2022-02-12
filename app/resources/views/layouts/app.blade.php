@@ -41,7 +41,7 @@
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
                         <li class="nav-item">
-                            <a class="nav-link" href="/" id="howto_link">使い方</a>
+                            <a class="nav-link" href="{{ route('howto') }}" id="howto_link">使い方</a>
                         </li>
                         @guest
                             @if (Route::has('login'))

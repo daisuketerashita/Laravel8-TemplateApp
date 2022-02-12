@@ -99,4 +99,10 @@ class TemplateController extends Controller
         //リダイレクト
         return redirect()->route('index');
     }
+
+    //使い方ページ
+    public function howto()
+    {
+        return view('howto');
+    }
 }
